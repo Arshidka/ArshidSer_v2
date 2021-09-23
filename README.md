@@ -1,107 +1,105 @@
-
 <div align="center">
-  <img border-radius: 15px src="https://i.imgur.com/bXIs6fy.jpeg" width="200" height="200"/>
-  <p align="center">
-<a href="#"><img title="ArshidBot" src="https://img.shields.io/badge/Arshid-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<img src="https://telegra.ph/file/9b873234a9cc47a5916ae.jpg" alt="NinoBot" width="500" />
+
+# NinoBot
+
+> NinoBot is a multipurpose WhatsApp bot using Adiwajshing-Baileys library!
+>
+>
+
+<h3 align="center">Made with ❤️ by</h3>
+<p align="center">
+  <a href="https://github.com/Nino-chan02"><img src="https://avatars.githubusercontent.com/u/81684610?s=400&u=25765902db0b709938966cf4127ac11af5eafb5d&v=4" height="128" width="128" /></a>
+  <a href="https://github.com/Akkun3704"><img src="https://avatars.githubusercontent.com/u/75048902?s=400&v=4" height="128" width="128" /></a>
+  <a href="https://github.com/zennn08"><img src="https://avatars.githubusercontent.com/u/75623219?s=400&u=8934104bf58533111f2f4cef7be5d72ebb79d75c&v=4" height="128" width="128" /></a>
+  <a href="https://github.com/SlavyanDesu"><img src="https://avatars3.githubusercontent.com/u/28254882?s=400&u=29439908cd661d11443391cb74f5b07267b71117&v=4" height="128" width="128" /></a>
+  <a href="https://github.com/Zobin33"><img src="https://avatars.githubusercontent.com/u/48700650?s=400&u=365f732cd3fc09ce75f6556715a00386005db57c&v=4" height="128" width="128" /></a>
 </p>
-  <p align="center">
-<a href="https://github.com/Arshidka"><img title="Author" src="https://img.shields.io/badge/Author-Arshid-vkn/ArshidBot?color=red&style=for-the-badge&logo=whatsapp"></a>
+
+<p align="center">
+  <a href="https://github.com/Nino-chan02"><img title="Author" src="https://img.shields.io/badge/Author-Marz-purple.svg?style=for-the-badge&logo=github" /></a>
+
+<p align="center">
+  <a href="https://github.com/Nino-chan02/NinoWangy#requirements">Requirements</a> •
+  <a href="https://github.com/Nino-chan02/NinoWangy#instalasi">Installation</a> •
+  <a href="https://github.com/Nino-chan02/NinoWangy#features">Features</a> •
+  <a href="https://github.com/Nino-chan02/NinoWangy#thanks-to">Thanks to</a>
 </p>
 </div>
-<p align="center">
-Project created by <a href="https://github.com/Arshidka">Arshidka</a> to make it public
-    <br>
-       | © |
-        Reserved |
-    <br> 
-</p>
 
-----
 
-  <p align="center">
-  <a href="httsp://github.com/Arshidka/ArshidBot">
-    <img src="https://img.shields.io/github/repo-size/Arshidka/ArshidBot?color=green&label=Repo%20total%20size&style=plastic">
-<p align="center">
-<a href="https://github.com/Arshidka/followers"><img title="Followers" src="https://img.shields.io/github/followers/Arshidka?color=blue&style=flat-square"></a>
-<a href="https://github.com/Arshidka/ArshidBot/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Arshidka/ArshidBot?color=green&style=flat-square"></a>
-<a href="https://github.com/Arshidka/ArshidBot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Arshidka/ArshidBot?color=blue&style=flat-square"></a>
-<a href="https://github.com/Arshidka/ArshidBot/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Arshidka/ArshidBot?label=Watchers&color=blue&style=flat-square"></a>
-<a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-blue.svg"</a>
-</p>
-  
-       
-  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Arshidka&repo=PublicBot&theme=nightowl)](https://github.com/Arshidka/PublicBot)
-  </div>
-    
-## Setup
-<div align="center">
+---
 
-  ### Simple Method
-  
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@phaticusthiccy/WhatsAsena-QR)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Arshidka/ArshidBot)
-     </div>
-<br>
-<br >
-If Repl.it not working Try Termux for Qr scanning.Just Copy the Link Below in Termux
+
+# Requirements
+* [Node.js](https://nodejs.org/en/)
+* [Git](https://git-scm.com/downloads)
+* [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases) (for sticker command)
+* [Libwebp](https://developers.google.com/speed/webp/download) (for sticker wm)
+* Any text editor
+
+# Instalasi
+## For Windows
+```bash
+git clone https://github.com/Nino-chan02/NinoWangy
+cd NinoWangy
+npm install
+node main
 ```
-bash <(curl -L https://t.ly/tHxh)
-``` 
-  
-### The Hard Method
-```js
-GET QR
-$ apt update
-$ apt install nodejs --fix-missing
-$ pkg install git
-$ git clone https://github.com/Arshidka/ArshidBot
-$ cd ArshidBot 
-$ chmod +x *
-$ npm install @adiwajshing/baileys
-$ npm install chalk
-$ node qr.js
+## For Termux
+```bash
+termux-setup-storage
+pkg update && pkg upgrade
+pkg install nodejs git ffmpeg libwebp 
+git clone https://github.com/Nino-chan02/NinoWangy
+cd NinoWangy
+npm install
+node main
 ```
-      
-```js
-SETUP
-$ git clone https://github.com/Arshidka/ArshidBot
-$ cd ArshidBot
-$ chmod +x *
-$ npm i
-$ node qr.js
-   // scan the qr using whatsapp web on your phone
-$ node bot.js
+
+## Installing the FFmpeg for Windows
+* Unduh salah satu versi FFmpeg yang tersedia dengan mengklik [di sini](https://github.com/BtbN/FFmpeg-Builds/releases).
+* Extract file ke `C:\` path.
+* Ganti nama folder yang telah di-extract menjadi `ffmpeg`.
+* Run Command Prompt as Administrator.
+* Jalankan perintah berikut::
+```cmd
+> setx /m PATH "C:\ffmpeg\bin;%PATH%"
+```
+Jika berhasil, akan memberikanmu pesan seperti: `SUCCESS: specified value was saved`.
+* Sekarang setelah Anda menginstal FFmpeg, verifikasi bahwa itu berhasil dengan menjalankan perintah ini untuk melihat versi:
+```cmd
+> ffmpeg -version
 ```
 
 
-### ⚠️ Warning! 
+## Installing the libwebp for Windows
+* Unduh salah satu versi libwebp yang tersedia dengan mengklik [di sini](https://developers.google.com/speed/webp/download).
+* Extract file ke `C:\` path.
+* Ganti nama folder yang telah di-extract menjadi `libwebp`.
+* Run Command Prompt as Administrator.
+* Jalankan perintah berikut::
+```cmd
+setx /m PATH "C:\libwebp\bin;%PATH%"
 ```
-Due to Userbot; Your WhatsApp account may be banned.
-This is an open source project, you are responsible for everything you do. 
-Absolutely, Asena executives do not accept responsibility.
-By establishing the Asena, you are deemed to have accepted these responsibilities.
+Jika berhasil, akan memberikanmu pesan seperti: `SUCCESS: specified value was saved`.
+* Sekarang setelah Anda menginstal libwebp, verifikasi bahwa itu berhasil dengan menjalankan perintah ini untuk melihat versi:
+```cmd
+webpmux -version
 ```
 
-## Developers
-  <div align="center">
-    
-  [![Arshidka](https://github.com/ArshidBot-407x400.png?size=100)](https://github.com/Arshidka) |  
+# Features
+- Cek [disini](https://github.com/Nino-chan02/NinoWangy/blob/main/message/help.js)
 
-
-
-[Arshidka](https://github.com/Arshidka) 
-
-Base, Bug Fixes, Modules | Modifiying  as   public | Bug Fixes, Modules
-
-  </div>
-
-    
-
-## License
-
-This project is protected by `GNU General Public Licence v3.0` license.
-
-### Disclaimer
-
-`WhatsApp` name, its variations and the logo are registered trademarks of Facebook. We have nothing to do with the registered trademark
+# MAKASIH LORT
+* [`Baileys`](https://github.com/adiwajshing/Baileys)
+* [`Arip`](https://github.com/Akkun3704)
+* [`MhankBarBar`](https://github.com/MhankBarBar)
+* [`Aqulzz`](https://github.com/zennn08)
+* [`Hexa`](https://github.com/Hexagonz)
+* [`Slavyan`](https://github.com/SlavyanDesu)
+* [`Galang`](https://github.com/Zobin33)
+* [`Franky`](https://github.com/Frankysolo)
+* [`Ryan`](https://github.com/HiRyn)
+* [`Rashid`](https://github.com/rashidsiregar28)
